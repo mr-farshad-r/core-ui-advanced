@@ -1,19 +1,19 @@
 ## CoreUI Admin Panel
 
 - Generators
-  - Charts 
+  - Charts
   - Custom list
   - Breadcrumbs
   - Card
-  - Carousel 
+  - Carousel
   - Collapse
   - Form (Switch, tags, searchable, ...)
   - Columns and Row
   - Table with pagination (Select all checkbox)
   - Buttons with tooltip and popovers, group buttons
-  - Progress bar 
-  - Tabs 
-  - Dropdown 
+  - Progress bar
+  - Tabs
+  - Dropdown
   - Icon
   - Badge
   - Modal
@@ -21,7 +21,7 @@
   - Widgets
   - File uploader, Live preview
   - Timeline
-  - Multiple item generator 
+  - Multiple item generator
   - Date picker
   - Rates
   - Tree
@@ -30,12 +30,13 @@
   - Image (img tag, css cover and contain)
   - Rich Text
 - Helpers
+  - Title
   - Toaster
   - Requests
   - Sockets
   - Change handler
   - Validation
-  - Datetime 
+  - Datetime
   - Toggler
   - PrevState
   - Encode / Decode
@@ -43,9 +44,9 @@
   - Case
     - Camel Case
     - Capitalize
-    - Snake Case 
+    - Snake Case
     - ...
-  - Slug 
+  - Slug
   - Prune text --> https://vocajs.com/#prune
 - Structures
   - Redux
@@ -56,16 +57,16 @@
   - Multi language
   - Styles
   - Indenting
-  - ES Lint configuration 
+  - ES Lint configuration
   - TypeScript Configs
 - Tools
   - React
-  - TypeScript 
+  - TypeScript
   - SCSS
-  - React Router Dom 
-  - Axios 
-  - Redux 
-  - Highcharts 
+  - React Router Dom
+  - Axios
+  - Redux
+  - Highcharts
   - Bootstrap
   - ReactStrap
   - FontAwesome
