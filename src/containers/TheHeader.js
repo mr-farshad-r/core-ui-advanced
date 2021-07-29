@@ -22,19 +22,20 @@ import {
   TheHeaderDropdownNotif,
   TheHeaderDropdownTasks
 }  from './index'
+import {TYPES} from "../redux/types";
 
 const TheHeader = () => {
   const dispatch = useDispatch()
-  const sidebarShow = useSelector(state => state.sidebarShow)
+  const sidebarShow = useSelector(state => state.CoreUI.sidebarShow)
 
   const toggleSidebar = () => {
     const val = [true, 'responsive'].includes(sidebarShow) ? false : 'responsive'
-    dispatch({type: 'set', sidebarShow: val})
+    dispatch({type: TYPES.SET_RESPONSIVE, sidebarShow: val})
   }
 
   const toggleSidebarMobile = () => {
     const val = [false, 'responsive'].includes(sidebarShow) ? true : 'responsive'
-    dispatch({type: 'set', sidebarShow: val})
+    dispatch({type: TYPES.SET_RESPONSIVE, sidebarShow: val})
   }
 
   return (
