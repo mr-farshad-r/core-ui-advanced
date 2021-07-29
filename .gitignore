@@ -18,4 +18,4 @@ yarn-error.log*
 yarn.lock
 .idea/
 src/react-app-env.d.ts
-src/__DONT_USE__/*
+#src/__DONT_USE__/*
