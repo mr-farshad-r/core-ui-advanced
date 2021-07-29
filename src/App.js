@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import {loading} from "./base/fallback-loading";
 import './assets/scss/style.scss';
-
-const loading = (
-  <div className="pt-3 text-center">
-    <div className="sk-spinner sk-spinner-pulse"/>
-  </div>
-)
 
 // Containers
 const TheLayout = React.lazy(() => import('./containers/TheLayout'));
